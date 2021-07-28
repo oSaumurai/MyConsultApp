@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <item android:id="@+id/mi_diary"-->
+<!--        android:title="mood_diary"-->
+<!--        android:icon="@drawable/abc_vector_test"/>-->
+
+
+<!--    <item android:id="@+id/mi_consult_assistance"-->
+<!--        android:title="consult_assistance"-->
+<!--        android:icon="@drawable/abc_vector_test"/>-->
+
+</menu>
