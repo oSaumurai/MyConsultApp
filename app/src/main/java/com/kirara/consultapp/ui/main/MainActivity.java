@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity{
     }
 
     public void onBtnClick(View v){
+
         startActivity(new Intent(this, NavigationActivity.class));
     }
 

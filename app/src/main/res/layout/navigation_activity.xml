@@ -7,6 +7,14 @@
     tools:context=".ui.Navigation.NavigationActivity">
 
 
+    <FrameLayout
+        android:id="@+id/navigation_fragmentContainer"
+        android:name="com.kirara.consultapp.ui.main.MainFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/bottomAppBar"
         android:layout_width="match_parent"
@@ -31,10 +39,11 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
+                android:onClick="onDiaryClick"
                 android:orientation="vertical"
                 android:text="Diary"
                 android:textAllCaps="false"
-                app:drawableTopCompat="@drawable/ic_diary"></TextView>
+                app:drawableTopCompat="@drawable/ic_diary" />
 
             <TextView
                 android:id="@+id/mi_consult_assistance"
@@ -43,10 +52,11 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
+                android:onClick="onConsultAssistClick"
                 android:orientation="vertical"
                 android:text="Consult_Assistance"
                 android:textAllCaps="false"
-                app:drawableTopCompat="@drawable/ic_assistant"></TextView>
+                app:drawableTopCompat="@drawable/ic_assistant" />
         </LinearLayout>
 <!--        <com.google.android.material.bottomnavigation.BottomNavigationView-->
 <!--            android:id="@+id/ButtomNavigationView"-->
@@ -65,5 +75,6 @@
         android:src="@drawable/ic_add"
         app:layout_anchor="@id/bottomAppBar"
         />
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
